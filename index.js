@@ -1,36 +1,37 @@
+class Pays {
+    constructor(nom, codeTel, codePays, monnaie, zoneGeo, capital) {
+        this.name = nom;
+        this.phoneCode = codeTel;
+        this.code = codePays;
+        this.currency = monnaie;
+        this.area = zoneGeo;
+        this.capital = capital;
+    }
+}
 
-    const country1 = {
-        Name : "Afrique du Sud",
-        phoneCode : 27,
-        code : "ZAR",
-        Currency : "Rand",
-        Area : "Afrique australe",
-        capitalCity : "Pretoria",
-    };
-    const country2 = {
-        Name : "Algérie",
-        phoneCode : 213,
-        code : "DZD",
-        Currency : "Dinar algérien",
-        Area : "Afrique du nord",
-        capitalCity :"Alger",
-    };
-    const country3 = {
-        Name : "Angola",
-        phoneCode : 244,
-        code : "AOA",
-        Currency : "Kwanza",
-        Area : "Afrique australe",
-        capitalCity :"Luanda",
-    };
-    const country4 = {
-        Name : "Botswana",
-        phoneCode : 267,
-        code : "BWP",
-        Currency : "Pula",
-        Area : "Afrique australe",
-        capitalCity :"Gaborone",
-    };
+// Pays.prototype.giveCode = function () {
+//     console.log("le code téléphonique du " + this.name + " est " + " le " + this.phoneCode );
+// } 
+
+const afriqueSud = new Pays ("Afrique du Sud", 27, "ZAR", "Rand", "Afrique australe", "Pretoria");
+
+const algerie = new Pays ("Algérie", 213, "DZD", "Dinar algérien", "Dinar algérien", "Afrique du nord", "Alger");
+
+const angola = new Pays ("Angola", 244, "AOA", "Kwanza", "Afrique australe", "Luanda");
+
+Pays.prototype.giveCode = function () {
+    console.log("le code téléphonique du " + this.name + " est " + " le " + this.phoneCode );
+} 
+
+
+const botswana = new Pays ("Botswana", 267, "BWP", "Pula", "Afrique australe", "Gaborone");
+
+const burkinaFaso = new Pays ("Burkina Faso", 226, "XOF", "Franc CFA (UEMOA)", "Afrique de l'ouest", "Ouagadougou")
+
+
+console.log(algerie);
+console.log(burkinaFaso.giveCode());
+
     const country5 = {
         Name : "Burkina Faso",
         phoneCode : 226,
