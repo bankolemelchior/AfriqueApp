@@ -7,11 +7,17 @@ class Pays {
         this.area = zoneGeo;
         this.capital = capital;
     }
+    sentence () {
+    console.log("le code téléphonique du " + this.name + " est " + " le " + this.phoneCode );
+} 
+
 }
 
-// Pays.prototype.giveCode = function () {
-//     console.log("le code téléphonique du " + this.name + " est " + " le " + this.phoneCode );
-// } 
+Pays.prototype.myProto = function () {
+    console.log("Prototype of Pays");
+}
+
+
 
 const afriqueSud = new Pays ("Afrique du Sud", 27, "ZAR", "Rand", "Afrique australe", "Pretoria");
 
@@ -19,192 +25,72 @@ const algerie = new Pays ("Algérie", 213, "DZD", "Dinar algérien", "Dinar alg�
 
 const angola = new Pays ("Angola", 244, "AOA", "Kwanza", "Afrique australe", "Luanda");
 
-Pays.prototype.giveCode = function () {
-    console.log("le code téléphonique du " + this.name + " est " + " le " + this.phoneCode );
-} 
-
 
 const botswana = new Pays ("Botswana", 267, "BWP", "Pula", "Afrique australe", "Gaborone");
 
 const burkinaFaso = new Pays ("Burkina Faso", 226, "XOF", "Franc CFA (UEMOA)", "Afrique de l'ouest", "Ouagadougou")
 
 
-console.log(algerie);
-console.log(burkinaFaso.giveCode());
+const burundi = new Pays ("Burundi", 256, "BIF", "Franc burundais", "Afrique de l’est", "Bujumbura");
 
-    const country5 = {
-        Name : "Burkina Faso",
-        phoneCode : 226,
-        code : "XOF",
-        Currency : "Franc CFA (UEMOA)",
-        Area : "Afrique de l'ouest",
-        capitalCity :"Ouagadougou",
-    };
-    const country6 = {
-        Name : "Burundi",
-        phoneCode : 256,
-        code : "BIF",
-        Currency : "Franc burundais",
-        Area : "Afrique de l’est",
-        capitalCity :"Bujumbura",
-    };
-    const country7 = {
-        Name : "Bénin",
-        phoneCode : 229,
-        code : "XOF",
-        Currency : "Franc CFA (UEMOA)",
-        Area : "Afrique de l'ouest",
-        capitalCity :"Porto-Novo",
-    };
-    const country8 = {
-        Name : "Cameroun",
-        phoneCode : 237,
-        code : "XAF",
-        Currency : "Franc CFA (CEMAC)",
-        Area : "Afrique centrale",
-        capitalCity :"Yaoundé",
-    };
-    const country9 = {
-        Name : "Cap-Vert",
-        phoneCode : 238,
-        code : "CVE",
-        Currency : "Escudo du Cap-Vert",
-        Area : "Afrique de l'ouest",
-        capitalCity :"Praia",
-    };
-    const country10 = {
-        Name : "Comores",
-        phoneCode : 269,
-        code : "KMF",
-        Currency : "Franc comorien",
-        Area : "Afrique de l’est",
-        capitalCity :"Moroni",
-    };
-    const country11 = {
-        Name : "Côte d’Ivoire",
-        phoneCode : 225,
-        code : "XOF",
-        Currency : "Franc CFA (UEMOA)",
-        Area : "Afrique de l'ouest",
-        capitalCity :"Yamoussoukro",
-    };
-    const country12 = {
-        Name : "Djibouti",
-        phoneCode : 253,
-        code : "DJF",
-        Currency : "Franc de Djibouti",
-        Area : "Afrique de l’est",
-        capitalCity :"Djibouti",
-    };
-    const country13 = {
-        Name : "Egypte",
-        phoneCode : 20,
-        code : "EGP",
-        Currency : "Livre egyptienne",
-        Area : "Afrique du nord",
-        capitalCity :"Le Caire",
-    };
-    const country14 = {
-        Name : "Gabon",
-        phoneCode : 241,
-        code : "XAF",
-        Currency : "Franc CFA (CEMAC)",
-        Area : "Afrique centrale",
-        capitalCity :"Libreville",
-    };
-    const country15 = {
-        Name : "Gambie",
-        phoneCode : 220,
-        code : "GMD",
-        Currency : "Dalasi",
-        Area : "Afrique de l'ouest",
-        capitalCity :"Banjul",
-    };
-    const country16 = {
-        Name : "Ghana",
-        phoneCode : 233,
-        code : "GHS",
-        Currency : "Cedi",
-        Area : "Afrique de l'ouest",
-        capitalCity :"Accra",
-    };
-    const country17 = {
-        Name : "Guinée",
-        phoneCode : 224,
-        code : "GNF",
-        Currency : "Franc guinéen",
-        Area : "Afrique de l'ouest",
-        capitalCity :"Conakry",
-    };
+const benin = new Pays ("Bénin", 229, "XOF", "Franc CFA (UEMOA)", "Afrique de l'ouest", "Porto-Novo");
 
-    const country18 = {
-        Name : "Guinée équatoriale",
-        phoneCode : 240,
-        code : "XAF",
-        Currency : "Franc CFA (CEMAC)",
-        Area : "Afrique centrale",
-        capitalCity :"Malabo",
-    };
+const cameroun = new Pays ("Cameroun", 237, "XAF", "Franc CFA (CEMAC)", "Afrique centrale", "Yaoundé");
 
-    const country19 = {
-        Name : "Guinée-Bissau",
-        phoneCode : 245,
-        code : "XOF",
-        Currency : "Franc CFA (UEMOA)",
-        Area : "Afrique de l'ouest",
-        capitalCity :"Bissau",
-    };
+const capVert = new Pays ("Cap-Vert", 238, "CVE", "Escudo du Cap-Vert", "Afrique de l'ouest", "Afrique de l'ouest", "Praia");
 
-    const country20 = {
-        Name : "Kenya",
-        phoneCode : 254,
-        code : "KES",
-        Currency : "Shilling kényan",
-        Area : "Afrique de l’est",
-        capitalCity :"Nairobi",
-    };
+const comores = new Pays ("Comores", 269, "KMF", "Franc comorien", "Afrique de l’est", "Moroni");
 
-    const country21 = {
-        Name : "Lesotho",
-        phoneCode : 266,
-        code : "LSL",
-        Currency : "Loti",
-        Area : "Afrique australe",
-        capitalCity :"Maseru",
-    };
+const coteDivoire = new Pays ("Côte d’Ivoire", 225, "XOF", "Franc CFA (UEMOA)", "Afrique de l'ouest", "Yamoussoukro");
 
-    const country22 = {
-        Name : "Liberia",
-        phoneCode : 0,
-        code : "LRD",
-        Currency : "Dollar libérien",
-        Area : "Afrique de l'ouest",
-        capitalCity :"Monrovia",
-    };
-    const country23 = {
-        Name : "Libye",
-        phoneCode : 218,
-        code : "LYD",
-        Currency : "Dinar libyen",
-        Area : "Afrique du nord",
-        capitalCity :"Tripoli",
-    };
-    const country24 = {
-        Name : "Madagascar",
-        phoneCode : 261,
-        code : "MGA",
-        Currency : "Ariary",
-        Area : "Afrique de l’est",
-        capitalCity :"Antananarivo",
-    };
-    const country25 = {
-        Name : "Malawi",
-        phoneCode : 265,
-        code : "MWK",
-        Currency : "Kwacha malawien",
-        Area : "Afrique australe",
-        capitalCity :"Lilongwe",
-    };
+const djibouti = new Pays ("Djibouti", 253, "DJF", "Franc de Djibouti", "Afrique de l’est", "Djibouti");
+
+const egypte = new Pays ("Egypte", 20, "EGP", "Livre egyptienne", "Afrique du nord", "Le Caire");
+
+const gabon = new Pays ("Gabon", 241, "XAF", "Franc CFA (CEMAC)", "Afrique centrale", "Libreville");
+
+const gambie =new Pays ("Gambie", 220, "GMD", "Dalasi", "Afrique de l'ouest", "Banjul");
+
+const ghana =new Pays ("Ghana", 233, "GHS", "Cedi", "Afrique de l'ouest", "Accra");
+
+const guinee =new Pays ("Guinée", 224, "GNF", "Franc guinéen", "Afrique de l'ouest", "Conakry");
+
+
+const guineeEquatoriale =new Pays ("Guinée équatoriale", 240, "XAF", "Franc CFA (CEMAC)", "Afrique centrale", "Malabo");
+
+const guineeBissaeu =new Pays ("Guinée-Bissau", 245, "XOF", "Franc CFA (UEMOA)", "Afrique de l'ouest", "Bissau");
+
+const kenya =new Pays ("Kenya", 254, "KES", "Shilling kényan", "Afrique de l’est", "Nairobi");
+
+const lesoto =new Pays ("Lesotho", 266, "LSL", "Loti", "Afrique australe", "Maseru");
+
+const liberia =new Pays ("Liberia", 0, "LRD", "Dollar libérien", "Afrique de l'ouest", "Monrovia");
+
+const libye =new Pays ("Libye", 218, "LYD", "Dinar libyen", "Afrique du nord", "Tripoli");
+
+const madagascar =new Pays ("Madagascar", 261, "MGA", "Ariary", "Afrique de l’est", "Antananarivo");
+
+const malawi =new Pays ("Malawi", 265, "MWK", "Kwacha malawien", "Afrique australe", "Lilongwe");
+
+class Continent extends Pays {
+    constructor (nom, codeTel, codePays, monnaie, zoneGeo, capital, belongTo) {
+        super(nom, codeTel, codePays, monnaie, zoneGeo, capital);
+        this.belongTo = belongTo;
+    }
+
+    appartenance () {
+        console.log(`${this.name} belong to ${this.belongTo}`);
+    }
+}
+
+let afrique = new Continent("Malawi", 265, "MWK", "Kwacha malawien", "Afrique australe", "Lilongwe", "Africa");
+
+afrique.myProto()
+
+   console.log(madagascar);
+   console.log(afrique);
+   console.log(madagascar.hasOwnProperty("code"));
+
     const country26 = {
         Name : "Mali",
         phoneCode : 0,
