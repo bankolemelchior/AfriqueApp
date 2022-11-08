@@ -56,18 +56,10 @@ const country = [
     egypte = new Pays("Egypte", 20, "EGP", "Livre egyptienne", "Afrique du nord", "Le Caire", "flags/Egypte-v1.png"),
 
     gabon = new Pays("Gabon", 241, "XAF", "Franc CFA (CEMAC)", "Afrique centrale", "Libreville", "flags/Gabon-v1.png"),
+
+    gambie = new Pays("Gambie", 220, "GMD", "Dalasi", "Afrique de l'ouest", "Banjul", "flags/Gambie-v1.png"),
 ]
 
-
-    // const country15 = {
-    //     Name : "Gambie",
-    //     phoneCode : 220,
-    //     code : "GMD",
-    //     Currency : "Dalasi",
-    //     Area : "Afrique de l'ouest",
-    //     capitalCity :"Banjul",
-    // };
-    // const flag15 = "url(./flags/Gambie-v1.png)";
 
 
 
