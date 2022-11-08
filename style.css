@@ -1,14 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    overflow-y: hidden;
 }
-
-/* body {
-    background-image: url(./images/Afrique-vert.jpg);
-    background-position: center;
-    background-repeat: repeat-y;
-} */
 
 .main_content {
     position: absolute;
@@ -24,24 +17,34 @@
     background-size: 900px;
 }
 
+.allCountry {
+    display: flex;
+    flex-flow: row wrap;
+    margin-block: 1rem;
+}
+
+.countryBtn {
+    margin: 0.1rem;
+    justify-content: center;
+}
+
 .display_country_name {
     width: 250px;
     text-align: center;
     position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%);
+    border: 2px solid;
 }
 
 .display_country_flag {
     height: 60px;
     width: 88px;
     border: 2px inset black;
-    position: absolute;
-    top: 20%;
-    left: 70%;
     transform: scale(2.5);
-    display: none;
+}
+
+.display_country_flag>img {
+    width: 100%;
+    height: 100%;
 }
 
 .display_details {
@@ -53,36 +56,7 @@
     left: 50%;
     transform: translate(-50%);
     display: flex;
-    flex-direction: column;
 }
-
-.tosearch {
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%);
-
-}
-
-#searchCountry {
-    height: 23px;
-    border-radius: 15px;
-    background-color: transparent;
-    text-align: center;
-    font-size: 1.2rem;
-
-}
-
-.preview_next {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%);
-}
-
-/* .preview {
-    visibility: hidden;
-} */
 
 .btn2 {
     position: absolute;
