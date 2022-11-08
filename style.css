@@ -31,7 +31,6 @@
 .display_country_name {
     width: 250px;
     text-align: center;
-    position: absolute;
     border: 2px solid;
 }
 
@@ -40,6 +39,11 @@
     width: 88px;
     border: 2px inset black;
     transform: scale(2.5);
+}
+
+.nameAndFlag {
+    display: flex;
+    border: 2px solid;
 }
 
 .display_country_flag>img {
