@@ -23,11 +23,38 @@ body {
   border: 2px solid burlywood;
 }
 
+.Btn {
+  display: flex;
+  justify-content: center;
+}
+
+.forNext {
+  display: none;
+}
+
+.startAgain {
+  display: none;
+}
+
+.endGame {
+  display: none;
+  width: 50%;
+  border: 5px solid rgb(246, 187, 110);
+}
+
+.spanEndGame {
+  display: block;
+}
+
 .search {
   padding-top: 0.5rem;
 }
 .search .forSearching {
-  margin-top: 0.5rem;
+  margin-block: 0.8rem;
+}
+
+.forSuggestion {
+  margin-inline: 5px;
 }
 
 /*# sourceMappingURL=africa.css.map */

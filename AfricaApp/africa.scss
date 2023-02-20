@@ -4,6 +4,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    // background-color: #d3d6d8;
 }
 
 .quiz {
@@ -15,6 +16,7 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
     
         li{
             height: 2rem;
@@ -26,9 +28,40 @@ body{
     }
 }
 
+.Btn {
+    display: flex;
+    justify-content: center;
+}
+
+.forNext {
+    display: none;
+}
+
+.startAgain {
+    display: none;
+}
+
+.endGame {
+    display: none;
+    width: 50%;
+    border: 5px solid rgb(246, 187, 110);
+}
+
+.spanEndGame {
+    display: block;
+}
+
 .search {
     padding-top: .5rem;
     .forSearching {
-        margin-top: .5rem;
+        margin-block: .8rem;
     }
 }
+
+.forSuggestion {
+    margin-inline: 5px;
+}
+
+// .displayCountry {
+//     paddig
+// }

@@ -4,19 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Africa</title>
     <link rel="stylesheet" href="africa.css">
 </head>
 <body>
 
-    <h2>Quelle est la capitale de <em id="pays">?</em></h2>
     <!-- <a href="#" id="order" data-id='2'>Commander</a> -->
     <div class="quiz">
+        <h2>Jeux de capitale</h2>
+        <h3 class="quizTitle">À quel point tu connaîs l'Afrique ?!</h3>
+        <!-- <h2 class="quizTitle">Quelle est la capitale de ce pays: <em id="pays">?</em></h2> -->
         <span class="score"></span>
         <ul id="allAnswers">
     
         </ul>
+    </div>
+    
+    
+    <div class="endGame">
+        <p></p>
+    </div>
+
+    <div class="Btn">
         <button id="reload">Commencer</button>
+        <button class="startAgain">Reprendre 🔄</button>
+        <button class="forNext">Continuer ▶</button>
     </div>
 
     <div class="search">
@@ -24,9 +36,16 @@
             <input type="text" name="" id="" class="forSearching" placeholder="Entrez le nom d'un pays">
             <button type="submit">rechercher</button>
         </form>
+        <!-- <h5>Rechercher un pays pour afficher les informations le concernant</h5> -->
         <!-- <div class="suggestion">
         </div> -->
     </div>
+
+    <div class="displayCountry">
+        
+    </div>
+
+
     
 
 
@@ -34,46 +53,6 @@
 
     <!-- <script src="country.js"></script> -->
     <script src="main.js" type="module"></script>
-    <!-- <script>
 
-        let link = document.getElementById('order');
-        let dataId = link.dataset.id;
-        console.log(dataId);
-
-        console.log(!!undefined);
-        console.log(!!" ");
-        console.log(!!"");
-        console.log(+'1');
-        console.log(+1);
-        console.log(1 + "2");
-        console.log(+true);
-        console.log(+false);
-        console.log(!!0);
-        //0 est une falsy value, provenant d'un constructeur c'est une truthy
-        console.log(!!new Number(0));
-        console.log(!!new Boolean(0));
-        console.log(!!new Boolean(false));
-        console.log(eval('10+10+5'));
-        console.log('***********************');
-        console.log('***********************');
-        let total = 2;
-        let x = 4;
-        
-        total += ++x;
-        console.log(total);
-
-        console.log('***********************');
-        console.log([...'OMOTOSHO']);
-        console.log(0xa);
-        console.log(false || null || []);
-        console.log(false || null || "");
-        console.log('***********************');
-        console.log(...[1,2,3]);
-        console.log('***********************');
-        let number = 0;
-        console.log(number++);
-        console.log(++number);
-        console.log(number);
-    </script> -->
 </body>
 </html>
