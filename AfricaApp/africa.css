@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz {
+  width: 50vw;
+}
+.quiz #allAnswers {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.quiz #allAnswers li {
+  height: 2rem;
+  width: 50%;
+  margin-block: 0.5rem;
+  border: 2px solid burlywood;
+}
+
+.search {
+  padding-top: 0.5rem;
+}
+.search .forSearching {
+  margin-top: 0.5rem;
+}
+
+/*# sourceMappingURL=africa.css.map */

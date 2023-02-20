@@ -1,0 +1,488 @@
+[     
+    {
+        "Name" : "Afrique du Sud",
+        "phoneCode" : 27,
+        "code" : "ZAR",
+        "Currency" : "Rand",
+        "Area" : "Afrique australe",
+        "capitalCity" : "Pretoria"
+    },
+     
+    {
+        "Name" : "Algérie",
+        "phoneCode" : 213,
+        "code" : "DZD",
+        "Currency" : "Dinar algérien",
+        "Area" : "Afrique du nord",
+        "capitalCity" :"Alger"
+    },
+     
+    {
+        "Name" : "Angola",
+        "phoneCode" : 244,
+        "code" : "AOA",
+        "Currency" : "Kwanza",
+        "Area" : "Afrique australe",
+        "capitalCity" :"Luanda"
+    },
+     
+    {
+        "Name" : "Botswana",
+        "phoneCode" : 267,
+        "code" : "BWP",
+        "Currency" : "Pula",
+        "Area" : "Afrique australe",
+        "capitalCity" :"Gaborone"
+    },
+     
+    {
+        "Name" : "Burkina Faso",
+        "phoneCode" : 226,
+        "code" : "XOF",
+        "Currency" : "Franc CFA (UEMOA)",
+        "Area" : "Afrique de l'ouest",
+        "capitalCity" :"Ouagadougou"
+    },
+     
+    {
+        "Name" : "Burundi",
+        "phoneCode" : 256,
+        "code" : "BIF",
+        "Currency" : "Franc burundais",
+        "Area" : "Afrique de l’est",
+        "capitalCity" :"Bujumbura"
+    },
+     
+    {
+        "Name" : "Bénin",
+        "phoneCode" : 229,
+        "code" : "XOF",
+        "Currency" : "Franc CFA (UEMOA)",
+        "Area" : "Afrique de l'ouest",
+        "capitalCity" :"Porto-Novo"
+    },
+     
+    {
+        "Name" : "Cameroun",
+        "phoneCode" : 237,
+        "code" : "XAF",
+        "Currency" : "Franc CFA (CEMAC)",
+        "Area" : "Afrique centrale",
+        "capitalCity" :"Yaoundé"
+    },
+     
+    {
+        "Name" : "Cap-Vert",
+        "phoneCode" : 238,
+        "code" : "CVE",
+        "Currency" : "Escudo du Cap-Vert",
+        "Area" : "Afrique de l'ouest",
+        "capitalCity" :"Praia"
+    },
+     
+    {
+        "Name" : "Comores",
+        "phoneCode" : 269,
+        "code" : "KMF",
+        "Currency" : "Franc comorien",
+        "Area" : "Afrique de l’est",
+        "capitalCity" :"Moroni"
+    },
+     
+    {
+        "Name" : "Côte d’Ivoire",
+        "phoneCode" : 225,
+        "code" : "XOF",
+        "Currency" : "Franc CFA (UEMOA)",
+        "Area" : "Afrique de l'ouest",
+        "capitalCity" :"Yamoussoukro"
+    },
+     
+    {
+        "Name" : "Djibouti",
+        "phoneCode" : 253,
+        "code" : "DJF",
+        "Currency" : "Franc de Djibouti",
+        "Area" : "Afrique de l’est",
+        "capitalCity" :"Djibouti"
+    },
+     
+    {
+        "Name" : "Egypte",
+        "phoneCode" : 20,
+        "code" : "EGP",
+        "Currency" : "Livre egyptienne",
+        "Area" : "Afrique du nord",
+        "capitalCity" :"Le Caire"
+    },
+     
+    {
+        "Name" : "Gabon",
+        "phoneCode" : 241,
+        "code" : "XAF",
+        "Currency" : "Franc CFA (CEMAC)",
+        "Area" : "Afrique centrale",
+        "capitalCity" :"Libreville"
+    },
+     
+    {
+        "Name" : "Gambie",
+        "phoneCode" : 220,
+        "code" : "GMD",
+        "Currency" : "Dalasi",
+        "Area" : "Afrique de l'ouest",
+        "capitalCity" :"Banjul"
+    },
+     
+    {
+        "Name" : "Ghana",
+        "phoneCode" : 233,
+        "code" : "GHS",
+        "Currency" : "Cedi",
+        "Area" : "Afrique de l'ouest",
+        "capitalCity" :"Accra"
+    },
+     
+    {
+        "Name" : "Guinée",
+        "phoneCode" : 224,
+        "code" : "GNF",
+        "Currency" : "Franc guinéen",
+        "Area" : "Afrique de l'ouest",
+        "capitalCity" :"Conakry"
+    },
+     
+    {
+        "Name" : "Guinée équatoriale",
+        "phoneCode" : 240,
+        "code" : "XAF",
+        "Currency" : "Franc CFA (CEMAC)",
+        "Area" : "Afrique centrale",
+        "capitalCity" :"Malabo"
+    },
+     
+    {
+        "Name" : "Guinée-Bissau",
+        "phoneCode" : 245,
+        "code" : "XOF",
+        "Currency" : "Franc CFA (UEMOA)",
+        "Area" : "Afrique de l'ouest",
+        "capitalCity" :"Bissau"
+    },
+     
+    {
+        "Name" : "Kenya",
+        "phoneCode" : 254,
+        "code" : "KES",
+        "Currency" : "Shilling kényan",
+        "Area" : "Afrique de l’est",
+        "capitalCity" :"Nairobi"
+    },
+    
+    {
+        "Name" : "Lesotho",
+        "phoneCode" : 266,
+        "code" : "LSL",
+        "Currency" : "Loti",
+        "Area" : "Afrique australe",
+        "capitalCity" :"Maseru"
+    },
+    
+    {
+        "Name" : "Liberia",
+        "phoneCode" : 0,
+        "code" : "LRD",
+        "Currency" : "Dollar libérien",
+        "Area" : "Afrique de l'ouest",
+        "capitalCity" :"Monrovia"
+    },
+     
+    {
+        "Name" : "Libye",
+        "phoneCode" : 218,
+        "code" : "LYD",
+        "Currency" : "Dinar libyen",
+        "Area" : "Afrique du nord",
+        "capitalCity" :"Tripoli"
+    },
+     
+    {
+        "Name" : "Madagascar",
+        "phoneCode" : 261,
+        "code" : "MGA",
+        "Currency" : "Ariary",
+        "Area" : "Afrique de l’est",
+        "capitalCity" :"Antananarivo"
+    },
+     
+    {
+        "Name" : "Malawi",
+        "phoneCode" : 265,
+        "code" : "MWK",
+        "Currency" : "Kwacha malawien",
+        "Area" : "Afrique australe",
+        "capitalCity" :"Lilongwe"
+    },
+     
+    {
+        "Name" : "Mali",
+        "phoneCode" : 0,
+        "code" : "XOF",
+        "Currency" : "Franc CFA (UEMOA)",
+        "Area" : "Afrique de l'ouest",
+        "capitalCity" :"Bamako"
+    },
+     
+    {
+        "Name" : "Maroc",
+        "phoneCode" : 212,
+        "code" : "MAD",
+        "Currency" : "Dirham marocain",
+        "Area" : "Afrique du nord",
+        "capitalCity" :"Rabat"
+    },
+     
+    {
+        "Name" : "Île Maurice",
+        "phoneCode" : 230,
+        "code" : "MUR",
+        "Currency" : "Roupie mauricienne",
+        "Area" : "Afrique de l’est",
+        "capitalCity" :"Port Louis"
+    },
+     
+    {
+        "Name" : "Mauritanie",
+        "phoneCode" : 222,
+        "code" : "MRO",
+        "Currency" : "Ouguiya",
+        "Area" : "Afrique du nord",
+        "capitalCity" :"Nouakchott"
+    },
+     
+    {
+        "Name" : "Mozambique",
+        "phoneCode" : 258,
+        "code" : "MZN",
+        "Currency" : "Metical",
+        "Area" : "Afrique australe",
+        "capitalCity" :"Maputo"
+    },
+     
+    {
+        "Name" : "Namibie",
+        "phoneCode" : 264,
+        "code" : "NAD",
+        "Currency" : "Dollar namibien",
+        "Area" : "Afrique australe",
+        "capitalCity" :"Windhoek"
+    },
+     
+    {
+        "Name" : "Niger",
+        "phoneCode" : 227,
+        "code" : "XOF",
+        "Currency" : "Franc CFA (UEMOA)",
+        "Area" : "Afrique de l'ouest",
+        "capitalCity" :"Niamey"
+    },
+     
+    {
+        "Name" : "Nigeria",
+        "phoneCode" : 234,
+        "code" : "NGN",
+        "Currency" : "Naira",
+        "Area" : "Afrique de l'ouest",
+        "capitalCity" :"Abuja"
+    },
+     
+    {
+        "Name" : "Ouganda",
+        "phoneCode" : 256,
+        "code" : "UGX",
+        "Currency" : "Shilling ougandais",
+        "Area" : "Afrique de l’est",
+        "capitalCity" :"Kampala"
+    },
+     
+    {
+        "Name" : "Rwanda",
+        "phoneCode" : 250,
+        "code" : "RWF",
+        "Currency" : "Franc rwandais",
+        "Area" : "Afrique de l’est",
+        "capitalCity" :"Kigali"
+    },
+     
+    {
+        "Name" : "République centrafricaine",
+        "phoneCode" : "",
+        "code" : "XAF",
+        "Currency" : "Franc CFA (CEMAC)",
+        "Area" : "Afrique centrale",
+        "capitalCity" :"Bangui"
+    },
+     
+    {
+        "Name" : "République du Congo",
+        "phoneCode" : 242,
+        "code" : "XAF",
+        "Currency" : "Franc CFA (CEMAC)",
+        "Area" : "Afrique centrale",
+        "capitalCity" :"Brazzaville"
+    },
+     
+    {
+        "Name" : "République démocratique du Congo",
+        "phoneCode" : 243,
+        "code" : "CDF",
+        "Currency" : "Franc congolais",
+        "Area" : "Afrique centrale",
+        "capitalCity" :"Kinshasa"
+    },
+     
+    {
+        "Name" : "Seychelles",
+        "phoneCode" : 248,
+        "code" : "SCR",
+        "Currency" : "Roupie seychelloise",
+        "Area" : "Afrique de l’est",
+        "capitalCity" :"Victoria"
+    },
+     
+    {
+        "Name" : "Sierra Leone",
+        "phoneCode" : 232,
+        "code" : "SLL",
+        "Currency" : "Leone",
+        "Area" : "Afrique de l'ouest",
+        "capitalCity" :"Freetown"
+    },
+     
+    {
+        "Name" : "Somalie",
+        "phoneCode" : 252,
+        "code" : "SOS",
+        "Currency" : "Shilling somalien",
+        "Area" : "Afrique de l’est",
+        "capitalCity" :"Mogadiscio"
+    },
+     
+    {
+        "Name" : "Soudan",
+        "phoneCode" : 249,
+        "code" : "SDG",
+        "Currency" : "Livre soudanaise",
+        "Area" : "Afrique du nord",
+        "capitalCity" :"Khartoum"
+    },
+     
+    {
+        "Name" : "Soudan du Sud",
+        "phoneCode" : 0,
+        "code" : "SSP",
+        "Currency" : "Livre sud-soudanaise",
+        "Area" : "Afrique de l’est",
+        "capitalCity" :"Djouba"
+    },
+     
+    {
+        "Name" : "Swaziland",
+        "phoneCode" : 268,
+        "code" : "SZL",
+        "Currency" : "Lilangeni",
+        "Area" : "Afrique australe",
+        "capitalCity" :"-"
+    },
+     
+    {
+        "Name" : "São Tomé-et-Principe",
+        "phoneCode" : 239,
+        "code" : "STD",
+        "Currency" : "Dobra",
+        "Area" : "Afrique centrale",
+        "capitalCity" :"São Tomé"
+    },
+     
+    {
+        "Name" : "Sénégal",
+        "phoneCode" : 221,
+        "code" : "XOF",
+        "Currency" : "Franc CFA (UEMOA)",
+        "Area" : "Afrique de l'ouest",
+        "capitalCity" :"Dakar"
+    },
+     
+    {
+        "Name" : "Tanzanie",
+        "phoneCode" : 255,
+        "code" : "TZS",
+        "Currency" : "Shilling tanzanien",
+        "Area" : "Afrique de l’est",
+        "capitalCity" :"Dodoma"
+    },
+     
+    {
+        "Name" : "Tchad",
+        "phoneCode" : 235,
+        "code" : "XAF",
+        "Currency" : "Franc CFA (CEMAC)",
+        "Area" : "Afrique centrale",
+        "capitalCity" :"N'Djamena"
+    },
+     
+    {
+        "Name" : "Togo",
+        "phoneCode" : 228,
+        "code" : "XOF",
+        "Currency" : "Franc CFA (UEMOA)",
+        "Area" : "Afrique de l'ouest",
+        "capitalCity" :"Lomé"
+    },
+     
+    {
+        "Name" : "Tunisie",
+        "phoneCode" : 216,
+        "code" : "TND",
+        "Currency" : "Dinar tunisien",
+        "Area" : "Afrique du nord",
+        "capitalCity" :"Tunis"
+    },
+     
+    {
+        "Name" : "Zambie",
+        "phoneCode" : 0,
+        "code" : "ZMW",
+        "Currency" : "Kwacha de Zambie",
+        "Area" : "Afrique australe",
+        "capitalCity" :"Lusaka"
+    },
+     
+    {
+        "Name" : "Zimbabwe",
+        "phoneCode" : 263,
+        "code" : "ZWL",
+        "Currency" : "Dollar du Zimbabwe",
+        "Area" : "Afrique australe",
+        "capitalCity" :"Harare"
+    },
+     
+    {
+        "Name" : "Érythrée",
+        "phoneCode" : 0,
+        "code" : "ERN",
+        "Currency" : "Nakfa",
+        "Area" : "Afrique de l’est",
+        "capitalCity" :"Asmara"
+    },
+     
+    {
+        "Name" : "Éthiopie",
+        "phoneCode" : 251,
+        "code" : "ETB",
+        "Currency" : "Birr",
+        "Area" : "Afrique de l’est",
+        "capitalCity" :"Addis-Abeba"
+    } 
+
+]

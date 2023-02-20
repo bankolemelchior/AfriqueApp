@@ -1,72 +1,72 @@
+html {
+    font-size: 62.5%;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
-.main_content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    height: 730px;
-    width: 1000px;
-    border: 10px inset green;
+body {
+    height: 100vh;
+    display: flex;
     justify-content: center;
+    align-items: center;
+
+}
+
+.main_content {
+    height: 73rem;
+    width: 100rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin: 2rem;
+    border: 10px inset green;
     background-image: url(./images/Afrique-vert.jpg);
-    background-position: left;
-    background-size: 900px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 .allCountry {
     display: flex;
     flex-flow: row wrap;
     margin-block: 1rem;
+    border: 2px solid;
 }
 
 .countryBtn {
+    width: fit-content;
+    flex: 25%;
     margin: 0.1rem;
+    padding-block: .1rem;
     justify-content: center;
 }
 
 .display_country_name {
     width: 250px;
     text-align: center;
-    border: 2px solid;
 }
 
-.display_country_flag {
-    height: 60px;
-    width: 88px;
-    border: 2px inset black;
-    transform: scale(2.5);
+#forFlag {
+    height: 100px;
+    border: 2px inset;
+    display: none;
 }
 
 .nameAndFlag {
+    position: relative;
+    top: -25%;
     display: flex;
-    border: 2px solid;
+    justify-content: center;
+    text-align: center;
 }
 
-.display_country_flag>img {
-    width: 100%;
-    height: 100%;
-}
 
 .display_details {
-    height: 350px;
+    display: flex;
     border: 2px inset black;
     padding: 10px;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%);
-    display: flex;
-}
-
-.btn2 {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%);
 }
 
 .capital_city, .area, .currency, .country_code, .phone_code {
@@ -74,22 +74,4 @@
     border: 2px inset black;
     margin: 8px;
     text-align: center;
-}
-
-.each_country {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    height: 300px;
-    width: 350px;
-    position: absolute;
-    bottom: 5%;
-    left: 5px;
-    border: 2px inset black;
-}
-
-button {
-    height: 20px;
-    min-width: 60px;
-    border-radius: 3px;
 }
